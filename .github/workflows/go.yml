@@ -1,6 +1,9 @@
+name: go test
+
 on:
   push
 jobs:
+  runs-on: self-hosted
   - name: Setup Go Faster
     uses: WillAbides/setup-go-faster@v1.7.0
     with:
