@@ -2,6 +2,7 @@ name: go test
 
 on:
   push
+  
 jobs:
   runs-on: self-hosted
   - name: Setup Go Faster
