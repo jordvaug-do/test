@@ -1,0 +1,7 @@
+on:
+  push
+jobs:
+  - name: Setup Go Faster
+    uses: WillAbides/setup-go-faster@v1.7.0
+    with:
+      go-version: '^1.18'
